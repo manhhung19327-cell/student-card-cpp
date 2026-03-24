@@ -8,19 +8,19 @@ int main() {
     string mssv;
     string khoa;
 
-    // In l?i chào và h?i tên
+    // In l?i chÃ o vÃ  h?i tÃªn
     cout << "Xin chao! Vui long nhap ho va ten: ";
     getline(cin, hoten);
 
-    // Nh?p mã s? sinh viên
+    // Nh?p mÃ£ s? sinh viÃªn
     cout << "Vui long nhap MSSV: ";
     getline(cin, mssv);
 
-    // Nh?p khóa
+    // Nh?p khÃ³a
     cout << "Vui long nhap khoa: ";
     getline(cin, khoa);
 
-    // In thông tin th? sinh viên
+    // In thÃ´ng tin th? sinh viÃªn
     cout << endl;
     cout << "----------The sinh vien----------" << endl << endl;
     cout << "Ho va ten:  " << hoten << endl << endl;
